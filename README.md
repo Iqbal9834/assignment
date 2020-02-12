@@ -1,5 +1,7 @@
-# Installation
-First of all install python virtual environment by pip package manager
-Activate virtual env by pipenv shell command 
-After that install Django restframework pip[package manager]
-Install sqlitedb on your machine
+# Local Setup
+$ git clone https://github.com/Iqbal9834/assignment.git
+$ cd assignment/assignment
+$ pipenv install
+$ pipenv shell
+$ cd assignment
+$ python manage.py runserver
